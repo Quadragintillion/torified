@@ -1,4 +1,4 @@
-package ru.fiw.proxyserver.mixin;
+package xyz.dragin.torified.mixin;
 
 import net.minecraft.client.gui.Drawable;
 import net.minecraft.client.gui.Element;
@@ -11,8 +11,6 @@ import java.util.List;
 
 @Mixin(Screen.class)
 public interface ScreenAccessor {
-    //For some reason addDrawableChild invoker dont processed normally outside of the dev environment
-    //So here's what it calls
     @Accessor
     List<Drawable> getDrawables();
 

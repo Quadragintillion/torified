@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "proxyserver",
+  "id": "torified",
   "version": "${version}",
 
-  "name": "Proxy Server",
-  "description": "Allows you to connect to servers through a proxy",
+  "name": "Torified",
+  "description": "Allows you to connect to Minecraft servers via Tor",
   "authors": [
     "Fiw"
   ],
@@ -14,12 +14,12 @@
   },
 
   "license": "MIT",
-  "icon": "assets/proxyserver/icon.png",
+  "icon": "assets/torified/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.fiw.proxyserver.ProxyServer"
+      "xyz.dragin.torified.Torified"
     ]
   },
   "mixins": [
