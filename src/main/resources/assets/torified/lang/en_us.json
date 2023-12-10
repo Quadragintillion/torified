@@ -1,5 +1,5 @@
 {
     "torified.menu.enabled": "Enabled",
     "torified.menu.disabled": "Disabled",
-    "torified.connect.failed": "%s\n\nAIs the Tor standalone running?"
+    "torified.connect.failed": "%s\n\nIs the Tor standalone running?"
 }
